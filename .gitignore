@@ -1,0 +1,30 @@
+#######################
+## Eclipse, Aptana etc
+#######################
+
+.project
+.settings/
+
+###########
+## Sublime
+###########
+
+sftp-config.json
+
+###########
+## Windows
+###########
+
+Thumbs.db
+Desktop.ini
+
+########
+## OS X
+########
+
+.DS_Store
+
+#########
+## Extra
+#########
+._*
