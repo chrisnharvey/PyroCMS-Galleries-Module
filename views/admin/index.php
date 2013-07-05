@@ -23,7 +23,12 @@
 							<ul class="gallery_images">
 								<?php foreach ($entry['images'] as $image): ?>
 
-									<li><img src="<?php echo site_url("files/thumb/{$image['file']}/184/200/fit"); ?>"></li>
+									<li>
+										<a href="<?php echo site_url("admin/galleries/make_cover/{$entry['id']}/{$image['id']}"); ?>">
+											<img src="<?php echo site_url("files/thumb/{$image['file']}/184/200/fit"); ?>">
+										</a>
+										<div class="make-cover">Click to make cover image</div>
+									</li>
 
 								<?php endforeach; ?>
 							</ul>
