@@ -126,6 +126,11 @@ class Admin extends Admin_Controller
         $this->template->build_json(array('status' => false, 'message' => 'Error uploading image'));
 	}
 
+	public function make_cover($gallery_id, $image_id)
+	{
+		
+	}
+
 	public function reorder()
 	{
 		$order = explode(',', $this->input->post('order'));
